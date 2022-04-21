@@ -1,0 +1,48 @@
+body {
+    background: darkcyan;
+    margin: 0vh;
+    padding: 0vh;
+    
+}
+
+.nav {
+    width: auto;
+    height: 10vh;
+    background: yellowgreen;
+    
+}
+
+.nav_content {
+    
+    color: darkblue;
+    font-size: 6vh;
+}
+
+::selection {
+    background: black;
+    color: aqua;
+}
+
+td {
+    margin: 5vh;
+    font-size: 10vh;
+}
+
+.classes {
+    display: inline-block;
+    margin:10vh 12vw;
+    width: auto;
+    background-color: coral;
+    color: whitesmoke;
+    transition: all 1s;
+}
+
+.classes:hover{
+    background:gold;
+}
+
+.heading {
+    color: chartreuse;
+    font-size: 10vh;
+    text-align: center;
+}
