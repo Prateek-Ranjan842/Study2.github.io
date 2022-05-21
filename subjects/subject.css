@@ -1,0 +1,42 @@
+/*universal*/
+
+:root {
+    --c: darkcyan;
+}
+
+body {
+    background: darkcyan;
+    width: 100vw;
+}
+
+::selection {
+    background: black;
+    color: aqua;
+}
+
+.heading {
+    color: chartreuse;
+    font-size: 10vh;
+    text-align: center;
+}
+
+.chapters{
+    color: rgb(247, 240, 178);
+    font-size: 8vh;
+    text-align: center;
+}
+
+.notes{
+    display: inline-block;
+    width: 50vw;
+    height: auto;
+    font-size: 8vh;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+iframe{
+    width: 80vw;
+    height: 30vh;
+}
